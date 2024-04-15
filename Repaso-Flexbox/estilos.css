@@ -1,0 +1,29 @@
+body{
+    background: beige;
+}
+
+.caja{
+    border: 1px solid gray;
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;
+}
+
+.flex-container{
+    border: 1px solid black;
+    background: gray;
+    padding: 20px;
+    display: flex;
+    /*flex-direction: row Organiza las cajas en filas*/
+    /*flex-direction: row-reverse organiza las cajas en filas pero de atras hacia adelante*/
+    /*flex-direction: column-reverse organiza las cajas en columnas pero de atras hacia adelante*/
+    /*flex-direction: row; Organiza las cajas en columnas*/
+    /*flex-wrap: wrap;Acomoda los elementos en varias lineas*/
+    flex-flow: row wrap;/*Es como poner un un flex direction y un flex-wrap*/
+}
