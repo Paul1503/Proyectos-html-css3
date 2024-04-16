@@ -26,4 +26,7 @@ body{
     /*flex-direction: row; Organiza las cajas en columnas*/
     /*flex-wrap: wrap;Acomoda los elementos en varias lineas*/
     flex-flow: row wrap;/*Es como poner un un flex direction y un flex-wrap*/
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
 }
