@@ -25,7 +25,7 @@ body{
     /*flex-direction: column-reverse organiza las cajas en columnas pero de atras hacia adelante*/
     /*flex-direction: row; Organiza las cajas en columnas*/
     /*flex-wrap: wrap;Acomoda los elementos en varias lineas*/
-    flex-flow: row wrap;/*Es como poner un un flex direction y un flex-wrap*/
+    flex-flow: column-reverse wrap;/*Es como poner un un flex direction y un flex-wrap*/
     width: 80%;
     margin: 0 auto;
     justify-content: space-between;
