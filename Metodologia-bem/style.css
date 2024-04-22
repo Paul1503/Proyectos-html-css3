@@ -1,0 +1,40 @@
+/*BEM= Bloque Elemento Modificador
+
+    Se usa siempre Class pero no id.
+
+    Class=aplicar estilos.
+    id=aplicar funcionalidad (Javascript)
+
+    .bloque__elemento--modificador
+
+    .bloque
+    -bloque__elemento
+    -bloque__elemento bloque__elemento--modificador
+
+    Lo que propone BEM 
+
+    -No usar ID.
+    -No usar etiquetas.
+    -Que todo sea un key selector(Seleccionar justo el elemento al cual se darán estilos)
+
+    Variables en CSS.
+
+    Como declaramos una variable en CSS
+    
+        root {
+            --mi-variable : yellow;
+        }
+    Para utilizarlo
+
+        h1 {
+            color : var(--mi-variable);
+        }
+    
+    Unidades de medida en css
+
+
+    */
+
+    body{
+        background-color: red;
+    }
