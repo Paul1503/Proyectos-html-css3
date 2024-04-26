@@ -4,5 +4,6 @@
 }
 
 .navegacion__menu{
-    background-color: red;
+    transform: translateY(-140%);
 }
+    
