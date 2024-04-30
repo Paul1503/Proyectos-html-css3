@@ -1,0 +1,31 @@
+html{
+    font-size: 10px;
+}
+
+.encabezado{
+    background-color: #050404;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.encabezado__titulo{
+   padding: 1rem;
+}
+
+
+
+.contenido__link{
+    margin: 1.8rem;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+
+}
+.contenido__parrafo{
+    font-size: 1.4rem;
+    border: 1px solid #050404;
+    color: #050404;
+    background-color: #DF9D37;
+    padding: 3rem;
+}
