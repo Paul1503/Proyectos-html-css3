@@ -4,46 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projecto 6</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
     <link rel="stylesheet" href="assets/css/estilos.css">
 </head>
 <body>
-    <h1>Correo Temporal</h1>
-
-    <div class="contenedor">
-        <div class="contenedor__input">
-            <input type="text" value="Paul@tempo.com">
-            <div class="contenerdor__icono">
-                <i class="fa-solid fa-copy"></i>
-            </div>
-        </div>
-    </div>
-
-    <div class="parametros">
-        
-        <div class="parametros__longuitud">
-            <h3 class="longuitud__titulo">Longuitud</h3>
-            <span class="longuitud__cantidad">4</span>
-            <input class="longuitud__barra" type="range" id="quantity" name="quantity" min="0" max="100" value="50">
-        </div>
-    </div>
-
-    <div class="checkbox">
-        <label class="checkbox__label"><input type="checkbox" id="cbox1" value="primer_checkbox" class="checkbox__input"/>Con letras</label>
-        <label class="checkbox__label"><input type="checkbox" id="cbox2" value="primer_checkbox" class="checkbox__input"/>Con Números</label>
-        <label class="checkbox__label"><input type="checkbox" id="cbox3" value="primer_checkbox" class="checkbox__input"/>Con Simbolos</label>
-        <label class="checkbox__label"><input type="checkbox" id="cbox4" value="primer_checkbox" class="checkbox__input"/>Con Mayusculas</label>
-    </div>
-
-    <div class="personalizado">
-        <input type="email" class="personalizado__input" placeholder="personalizado">
-    </div>
-
-    <div class="boton">
-        <button class="boton__boton">Crear</button>
-    </div>
-
     
+    <div  class="layout">
+
+        <main class="layout__main">
+            <h1 class="main__title">Correo temporal</h1>
+
+            <div class="main__generate">
+                <p class="generate__mail">Paul@temp.com</p>
+                <i class="fa-solid fa-copy generate__icon"></i>
+            </div>
+
+            <form class="main__form">
+                
+                <div class="form__slider">
+                    <div class="control__title">
+                        <span class="control__text">Longitud</span>
+                        <span class="control__number">4</span>
+                    </div>
+
+                    <input class="control__range" type="range" value="4" min="1" max="10">
+
+                </div>
+            </form>
+        </main>
+
+    </div>
     
 </body>
 </html>
