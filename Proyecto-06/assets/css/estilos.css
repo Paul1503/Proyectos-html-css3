@@ -1,0 +1,50 @@
+body{
+    height: 100vh;
+    background-color: #0C5E7C;
+    font-size: 10px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+h1{
+    padding-bottom: 1rem;
+}
+
+.contenedor{
+    background-color: #ccc;
+    /* padding: 10px; */
+    border-radius: 5px
+}
+
+.contenedor__input{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor__input input{
+    padding: 10px;
+    padding-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contenerdor__icono{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    
+}
+
+.contenerdor__icono i{
+    font-size: 20px;
+    color: blue;
+}
+
+
+
